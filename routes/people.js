@@ -14,4 +14,8 @@ router.put('/:id', updatePerson)
   
 router.delete('/:id', deletePerson)
 
+//another way. See in 15-router-controller:
+//router.route('/').get(getPeople).post(createPerson)
+//router.route('/:id').put(updatePerson).delete(deletePerson)
+
 module.exports = router
